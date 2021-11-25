@@ -38,6 +38,7 @@ import com.raywenderlich.android.simplecalculator.operators.*
 class CalculatorEngine {
 
   var result = "0"
+
   var operator: Char? = '+'
   var isInInvalidState = false
 
